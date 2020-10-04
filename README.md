@@ -19,10 +19,34 @@ It should be put in `data/` folder
 
 ## 2. Encoding images
 
-`python load_img.py --train_dir <data dir> --test_dir <test_dir> --save_train <save dir of encodings of train> --save_test <save dir of encodinges of test>`
+`
+python load_img.py --train_dir <data dir> --test_dir <test_dir> --save_train <save dir of encodings of train> --save_test <save dir of encodinges of test>
+`
+
 
 All encodings are stored in `.npy` files
 
 ## 3. Training
+
+`
+python train.py --model <save dir of model>
+`
+
+model will stored in `svm_model.sav` file in model dir (default: `model/`)
+
+## 4. Run demo
+
+`
+python demo.py --model <save dir of model> --img_dir <dir of test image>
+`
+
+## 5. Test on testset and show accuracy
+
+`
+python demo.py --model <save dir of model> --test_dir <dir of test images>
+`
+
+
+
 
 
