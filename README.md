@@ -6,14 +6,15 @@ Our backbone in this code:
 
 ## 1. Preparing data
 The data of images of peole which will be trained must be prepared as below:
-PERSON1:
-- image1.jpg
-- image2.jpg
-- ...
-PERSON2:
-- image1.jpg
-- image2.jpg
-- ...
+
+- PERSON1:
+  + image1.jpg
+  + image2.jpg
+  + ...
+- PERSON2:
+  + image1.jpg
+  + image2.jpg
+  + ...
 
 It should be put in `data/` folder
 
