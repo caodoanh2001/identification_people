@@ -43,7 +43,7 @@ python demo.py --model <save dir of model> --img_dir <dir of test image>
 ## 5. Test on testset and show accuracy
 
 `
-python demo.py --model <save dir of model> --test_dir <dir of test images>
+python test.py --model <save dir of model> --test_dir <dir of test images>
 `
 
 
