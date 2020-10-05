@@ -50,5 +50,10 @@ python test.py --model <save dir of model> --test_dir <dir of encoded test image
 *Note: with a new test set must be encocded in ##2 before run test. Set `--load_train 0` if encode only test images.
 
 
+Example result:
 
+`
+accuracy:  100.0
+Predict actually: 70/70
+`
 
