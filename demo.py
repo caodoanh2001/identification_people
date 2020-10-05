@@ -14,8 +14,8 @@ import argparse
 import random
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i","--img_dir", type=str, default="save_encode/", help="Save dir of encoding of train images")
-parser.add_argument("-smodel","--save_model", type=str, default="model/", help="Save dir of encoding of train images")
+parser.add_argument("-i","--img_dir", type=str, default="save_encode/", help="image dir")
+parser.add_argument("-smodel","--save_model", type=str, default="model/", help="Save dir of model")
 args = parser.parse_args()
 
 '''Get model'''
