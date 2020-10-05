@@ -38,7 +38,7 @@ for i in tqdm(range(0, len(persons))):
 
 '''Create and train the SVC classifier '''
 
-svm_clf = svm.SVC(gamma='scale', C=1)
+svm_clf = svm.SVC(gamma='scale', C=1, probability=True)
 svm_clf.fit(encodings,names)
 
 '''save the model to disk'''
