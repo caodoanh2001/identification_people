@@ -50,3 +50,4 @@ for faces in encodings:
 
 check = [predict == real for predict, real in zip(predict_names, names)]
 print('accuracy: ', sum(check)/len(predict_names) * 100)
+print('Predict actually: {}/{}'.format(sum(check),len(predict_names)))
