@@ -52,8 +52,8 @@ python test.py --model <save dir of model> --test_dir <dir of encoded test image
 
 Example result:
 
-`
+```python
 accuracy:  100.0
 Predict actually: 70/70
-`
+```
 
