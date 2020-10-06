@@ -47,8 +47,6 @@ python demo.py --model <save dir of model> --img_dir <dir of test image>
 python test.py --model <save dir of model> --test_dir <dir of test images>
 `
 
-*Note: with a new test set must be encocded in ##2 before run test. Set `--load_train 0` if encode only test images.
-
 
 Example result:
 
