@@ -59,9 +59,9 @@ for i in tqdm(range(0, len(test_list))):
     else:
       percentages.append(0)
 
-
-for name, result, percentage in zip(name_img, predict_names, percentages):
-  print('Image: {} - Predict: {} - Real: {} - Percentages: {}%'.format(name, result, test_list[i], round(percentage,3)*100))
+      
+for name, result, real, percentage in zip(name_img, predict_names, real_names, percentages):
+  print('Image: {} - Predict: {} - Real: {} - Percentages: {}%'.format(name, result, real, round(percentage,3)*100))
 
 check = [predict == real for predict, real in zip(predict_names, real_names)]
 print('accuracy: ', sum(check)/len(predict_names) * 100)
